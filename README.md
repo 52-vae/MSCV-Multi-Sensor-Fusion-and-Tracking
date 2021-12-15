@@ -9,6 +9,10 @@
 
 # <p align="center">Master of Computer vision and Robotics</p >   
 <p align="center">  
+
+https://user-images.githubusercontent.com/42157171/146118910-478f7315-4314-4b4f-ae15-cf1ad0f737f1.mp4
+
+
    <img src = "images/vibot.png" width = 80>
 </p >
 
@@ -121,6 +125,8 @@ Since we dont have any obstacle, we can control the robot by publishing to */cmd
 
 
 
+https://user-images.githubusercontent.com/42157171/146118747-4c6c2866-fa61-42d7-9b00-a9efee1d15d5.mp4
+
 - #### Go to Goal Pose with obstacle.
 
 Since the obstacle is of red in color, we can you filter and it in the image to create a map that can be provided to the *move_base* package to paln a path to the goal.
@@ -131,6 +137,9 @@ Since the obstacle is of red in color, we can you filter and it in the image to 
 </p>
 
 The above image is image from the camera and the corrosponding map created for *move_base* package.Were the black spot in the map is the detetecd obstacle to avoid.
+
+
+https://user-images.githubusercontent.com/42157171/146118958-ae5b4de1-bdff-4c09-889a-79bfaebeee89.mp4
 
 
 ## Setup to run the package
