@@ -125,6 +125,8 @@ Since we dont have any obstacle, we can control the robot by publishing to */cmd
 
 https://user-images.githubusercontent.com/42157171/146118747-4c6c2866-fa61-42d7-9b00-a9efee1d15d5.mp4
 
+The video above shows the go the goal with no obstacle. The code works for most of the time but, not always. sometime it goes near the goal and stop. This may be due to the fact the camera is fish eye camera, with almost a normal camera characters and I consider the camera as normal camera model for this project and this maybe a reason for this behaviour.
+
 - #### Go to Goal Pose with obstacle.
 
 Since the obstacle is of red in color, we can you filter and it in the image to create a map that can be provided to the *move_base* package to paln a path to the goal.
@@ -134,11 +136,13 @@ Since the obstacle is of red in color, we can you filter and it in the image to 
 <img src="images/goalPose.png" width="300" height= "300"> <img src="images/map.png" width="300" height= "300"> 
 </p>
 
-The above image is image from the camera and the corrosponding map created for *move_base* package.Were the black spot in the map is the detetecd obstacle to avoid.
+The above image is image from the camera and the corrosponding map created for *move_base* package.Were the black spot in the map is the detetecd obstacle to avoid.we have to measure the distance the from one side to the other side to find the resultion to map that must be set to the map configuration
+
 
 
 https://user-images.githubusercontent.com/42157171/146118958-ae5b4de1-bdff-4c09-889a-79bfaebeee89.mp4
 
+The video above shows the go the goal with no obstacle. The code works for most of the time but, not always. sometime it goes near the goal and stop. This may be due to the fact the camera is fish eye camera, with almost a normal camera characters and I consider the camera as normal camera model for this project and this maybe a reason for this behaviour.
 
 ## Setup to run the package
 **Step-1** Launch roscore on *Remote PC*
