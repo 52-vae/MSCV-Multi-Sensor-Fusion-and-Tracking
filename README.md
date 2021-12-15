@@ -151,7 +151,7 @@ https://user-images.githubusercontent.com/42157171/146118958-ae5b4de1-bdff-4c09-
 
 The video above shows the go the goal with no obstacle, from the camera view and the current pose marker with green box.
 
-https://user-images.githubusercontent.com/42157171/146263129-00a51452-d33a-48cd-a5ac-f06840a1aa6f.mp4
+https://user-images.githubusercontent.com/42157171/146263962-17da4852-7d48-49dd-9c1a-a44cf176b5e0.mp4
 
 The video above shows the go the goal with no obstacle, from a world view. 
 
