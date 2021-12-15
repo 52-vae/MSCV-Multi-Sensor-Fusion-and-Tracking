@@ -12,7 +12,8 @@
    <img src = "images/vibot.png" width = 80>
 </p >
 
-# <p align="center">Robotics Project</p> 
+# <p align="center">Multi-Sensor Fusion and Tracking
+</p> 
 
 ## <p align="center">Supervisors:</p > 
 <p align="center"> Omar Tahri</p >   
