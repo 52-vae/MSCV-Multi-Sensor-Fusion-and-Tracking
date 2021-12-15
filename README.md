@@ -37,6 +37,7 @@
    - [Pose Estimation](#pose-estimation)
    - Go to Goal Pose(with no obstacle)
    - Go to Goal Pose(with obstacle)
+- [Setup to run the package](#setup-to-run-the-package)
 - [Conclusions](#Conclusions)
 - [References](#References)
 
