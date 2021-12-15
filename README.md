@@ -32,7 +32,11 @@
 - [Aim of the Project](#aim-of-the-project)
 - [Introduction](#introduction)
 - [Prior Knowledge](#prior-knowledge)
-- [Tasks and Implementation](#tasks-and-implementation)
+- [Tasks](#tasks)
+   - [Camera Calibration](#camera-calibration)
+   - [Pose Estimation](#pose-estimation)
+   - Go to Goal Pose(with no obstacle)
+   - Go to Goal Pose(with obstacle)
 - [Conclusions](#Conclusions)
 - [References](#References)
 
@@ -109,13 +113,13 @@ we can detect aurco markers in the image from the camera that we subscribe to,si
 Once the marker is detected a axis is drawn for reference. And publish the image and pose as the current pose of the robot.The 
 
 
-- #### Go to a Goal Pose(with no obstacle)
+- #### Go to Goal Pose(with no obstacle)
 
 Since we dont have any obstacle, we can control the robot by publishing to */cmd_vel* topic until the distance and the angle between the current and goal is less than 0.01 meter and 0.01 rads.
 
 
 
-- #### Go to a Goal Pose with obstacle.
+- #### Go to Goal Pose with obstacle.
 
 Since the obstacle is of red in color, we can you filter and it in the image to create a map that can be provided to the *move_base* package to paln a path to the goal.
 
@@ -161,7 +165,7 @@ OR
 $ roslaunch turtlebot3_visual_servoing navigateObstacle.launch 
 ```
 
-
+## Conclusions
 ## References
 
 - [ROS cv_bridge](http://wiki.ros.org/cv_bridge)
