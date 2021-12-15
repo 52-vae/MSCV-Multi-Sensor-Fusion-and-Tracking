@@ -201,7 +201,6 @@ OR
 $ roslaunch turtlebot3_visual_servoing navigateObstacle.launch 
 ```
 
-## Conclusions
 ## References
 
 - [ROS cv_bridge](http://wiki.ros.org/cv_bridge)
