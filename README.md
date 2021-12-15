@@ -15,9 +15,10 @@
 # <p align="center">Robotics Project</p> 
 
 ## <p align="center">Supervisors:</p > 
+<p align="center"> Omar Tahri</p >   
 <p align="center"> Ahmed Wael Ahmed Hossameldin
           </p >   
-<p align="center"> Omar Tahri</p >   
+
    
 
 ## <p align="center">Student:</p >
