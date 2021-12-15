@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<launch>
+    <node pkg="turtlebot3_visual_servoing" name="currentPose" type="currentPose.py" output="screen"/>
+    <node pkg="turtlebot3_visual_servoing" name="goToGoal" type="goToGoal.py" output="screen"/>
+
+</launch>
