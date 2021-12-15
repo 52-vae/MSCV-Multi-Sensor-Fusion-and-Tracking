@@ -125,6 +125,13 @@ Since we dont have any obstacle, we can control the robot by publishing to */cmd
 
 https://user-images.githubusercontent.com/42157171/146118747-4c6c2866-fa61-42d7-9b00-a9efee1d15d5.mp4
 
+The video above shows the go the goal with no obstacle, from the camera view and the current pose marker with green box.
+
+https://user-images.githubusercontent.com/42157171/146262430-0dfd79eb-ca42-4ea3-9e0e-4278d0bffff6.mp4
+
+The video above shows the go the goal with no obstacle, from a world view. 
+
+
 The video above shows the go the goal with no obstacle. The code works for most of the time but, not always. sometime it goes near the goal and stop. This may be due to the fact the camera is fish eye camera, with almost a normal camera characters and I consider the camera as normal camera model for this project and this maybe a reason for this behaviour.
 
 - #### Go to Goal Pose with obstacle.
@@ -141,6 +148,22 @@ The above image is image from the camera and the corrosponding map created for *
 
 
 https://user-images.githubusercontent.com/42157171/146118958-ae5b4de1-bdff-4c09-889a-79bfaebeee89.mp4
+
+The video above shows the go the goal with no obstacle, from the camera view and the current pose marker with green box.
+
+https://user-images.githubusercontent.com/42157171/146263962-17da4852-7d48-49dd-9c1a-a44cf176b5e0.mp4
+
+The video above shows the go the goal with no obstacle, from a world view. 
+
+One More example for go the goal with no obstacle.
+
+https://user-images.githubusercontent.com/42157171/146265945-14d4d806-a45d-408a-ba3c-3c3cc79e1dab.mp4
+
+The video above shows the go the goal with no obstacle, from the camera view and the current pose marker with green box.
+
+https://user-images.githubusercontent.com/42157171/146265963-3c0bebd2-1ed6-438a-b11a-86a4d75868ad.mp4
+
+The video above shows the go the goal with no obstacle, from a world view. 
 
 The video above shows the go the goal with obstacle. The code works for most of the time but, not always. sometime it goes near the goal and stop. This may be due to the fact the camera is fish eye camera, with almost a normal camera characters and I consider the camera as normal camera model for this project and this maybe a reason for this behaviour.
 
