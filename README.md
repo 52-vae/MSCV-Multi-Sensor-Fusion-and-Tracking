@@ -10,8 +10,6 @@
 # <p align="center">Master of Computer vision and Robotics</p >   
 <p align="center">  
 
-https://user-images.githubusercontent.com/42157171/146118910-478f7315-4314-4b4f-ae15-cf1ad0f737f1.mp4
-
 
    <img src = "images/vibot.png" width = 80>
 </p >
