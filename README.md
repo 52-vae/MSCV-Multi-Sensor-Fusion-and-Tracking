@@ -142,7 +142,7 @@ The above image is image from the camera and the corrosponding map created for *
 
 https://user-images.githubusercontent.com/42157171/146118958-ae5b4de1-bdff-4c09-889a-79bfaebeee89.mp4
 
-The video above shows the go the goal with no obstacle. The code works for most of the time but, not always. sometime it goes near the goal and stop. This may be due to the fact the camera is fish eye camera, with almost a normal camera characters and I consider the camera as normal camera model for this project and this maybe a reason for this behaviour.
+The video above shows the go the goal with obstacle. The code works for most of the time but, not always. sometime it goes near the goal and stop. This may be due to the fact the camera is fish eye camera, with almost a normal camera characters and I consider the camera as normal camera model for this project and this maybe a reason for this behaviour.
 
 ## Setup to run the package
 **Step-1** Launch roscore on *Remote PC*
