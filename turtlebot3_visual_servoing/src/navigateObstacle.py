@@ -1,16 +1,20 @@
 #!/usr/bin/env python
 
+#import
 import rospy
 import actionlib
 from move_base_msgs.msg import MoveBaseAction,MoveBaseGoal
 from geometry_msgs.msg import Pose,Quaternion
 
+# initlize the global variables
 global GoalPose,goal
 GoalPose = Pose()
+# intlize the move base goal
 goal = MoveBaseGoal()
+# action call to the move_base clinet to make the robot move to the goal.
 client = actionlib.SimpleActionClient('move_base', MoveBaseAction)
 
-
+# subscriber callback to initlize the goal pose to the call the move base
 def callback(msg):
         GoalPose.orientation.x = msg.orientation.x
         GoalPose.orientation.y = msg.orientation.y
@@ -37,11 +41,12 @@ def main():
 
 
 
-
+#initlize the ros node
 if __name__ == '__main__':
     rospy.init_node('navigateObstacle')
     sub = rospy.Subscriber('/GoalPose',Pose,callback)
     try: 
         main()
+        rospy.spin()
     except rospy.ROSException as e:
         print(e)

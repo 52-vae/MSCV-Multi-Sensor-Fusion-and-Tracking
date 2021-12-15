@@ -1,5 +1,6 @@
 #!/usr/bin/env python
 
+# import
 import rospy
 from rospy.exceptions import TransportException
 from sensor_msgs.msg import Image
@@ -12,6 +13,7 @@ from geometry_msgs.msg import Pose,Quaternion
 from tf.transformations import quaternion_from_euler
 from nav_msgs.msg import Odometry
 
+#get package path
 rospack = rospkg.RosPack()
 packagePath = rospack.get_path('turtlebot3_visual_servoing')
 

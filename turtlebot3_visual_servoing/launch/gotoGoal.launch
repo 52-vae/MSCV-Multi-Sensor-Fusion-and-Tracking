@@ -1,6 +1,8 @@
 <?xml version="1.0"?>
 <launch>
+    <!-- launch the current pose to get the current pose of the robot -->
     <node pkg="turtlebot3_visual_servoing" name="currentPose" type="currentPose.py" output="screen"/>
+   <!--launch the go to goal node with the current pose-->
     <node pkg="turtlebot3_visual_servoing" name="goToGoal" type="goToGoal.py" output="screen"/>
 
 </launch>
